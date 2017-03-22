@@ -1,5 +1,12 @@
-var formattedName=HTMLheaderName.replace("%data%","ANJANA");
 
-var formattedRole=HTMLheaderRole.replace("%data%","Reader,Learner,Multi-tasker");
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
+var bio = {
+	"name":"Anjana",
+	"role":"Reader,Learner,Multi-tasker",
+	"contact":"anjoo.pilai@gmail.com",
+	"welcome":"Hello-World!!",
+	"skills":"Eats a lot"
+};
+
+$("#main").prepend(bio.role);
+$("#main").prepend(bio.name);
+
